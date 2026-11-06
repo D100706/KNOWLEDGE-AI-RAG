@@ -1,0 +1,20 @@
+RETRIEVAL-AUGMENTED GENERATION: ARCHITECTURE
+
+A typical RAG application has two main workflows: indexing and question answering.
+
+INDEXING WORKFLOW
+1. Document ingestion: accept files such as PDF and TXT.
+2. Text extraction: convert file contents into machine-readable text.
+3. Chunking: divide long text into smaller overlapping sections.
+4. Embedding: encode each chunk into a dense numerical vector.
+5. Vector indexing: store vectors in a vector index for similarity search.
+
+QUESTION-ANSWERING WORKFLOW
+1. The user submits a natural-language question.
+2. The application converts the question into an embedding using the same embedding model.
+3. Similarity search retrieves the most relevant document chunks.
+4. The retrieved chunks are assembled into a context prompt.
+5. A language model generates an answer grounded in the retrieved context.
+6. The application displays the answer and source references.
+
+FAISS is a library for efficient similarity search over dense vectors. Sentence Transformers can create sentence embeddings. A language model should be instructed to admit when the answer is not present in the retrieved context. Retrieval quality depends on chunk size, overlap, embedding model, and the number of retrieved results.

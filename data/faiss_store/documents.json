@@ -1,0 +1,26 @@
+[
+  {
+    "text": "INTRODUCTION TO ARTIFICIAL INTELLIGENCE Artificial Intelligence (AI) is a field of computer science focused on building systems that perform tasks commonly associated with human intelligence. These tasks include learning, reasoning, problem solving, perception, and understanding language. Machine learning is a subfield of AI. It enables systems to learn patterns from data and improve their performance without being explicitly programmed for every possible situation. Common machine learning approaches include supervised learning, unsupervised learning, and reinforcement learning. Natural Language Processing (NLP) focuses on enabling computers to understand, interpret, and generate human language. Common applications include chatbots, translation, text classification, and document search. A knowledge assistant can use retrieval-augmented generation (RAG) to answer questions using a collection of trusted documents. RAG retrieves relevant passages first and then provides those passages to a language model as context. This helps ground responses in the supplied information and makes it possible to show source references.",
+    "metadata": {
+      "source": "AI_Introduction.txt",
+      "page": 1,
+      "chunk": 1
+    }
+  },
+  {
+    "text": "RETRIEVAL-AUGMENTED GENERATION: ARCHITECTURE A typical RAG application has two main workflows: indexing and question answering. INDEXING WORKFLOW 1. Document ingestion: accept files such as PDF and TXT. 2. Text extraction: convert file contents into machine-readable text. 3. Chunking: divide long text into smaller overlapping sections. 4. Embedding: encode each chunk into a dense numerical vector. 5. Vector indexing: store vectors in a vector index for similarity search. QUESTION-ANSWERING WORKFLOW 1. The user submits a natural-language question. 2. The application converts the question into an embedding using the same embedding model. 3. Similarity search retrieves the most relevant document chunks. 4. The retrieved chunks are assembled into a context prompt. 5. A language model generates an answer grounded in the retrieved context. 6. The application displays the answer and source references. FAISS is a library for efficient similarity search over dense vectors. Sentence Transformers can create sentence embeddings. A language model should be instructed to admit when the answer is not present in the retrieved context. Retrieval quality depends on chunk size, overlap, embedding model, and the number of retrieved results.",
+    "metadata": {
+      "source": "RAG_Architecture.txt",
+      "page": 1,
+      "chunk": 1
+    }
+  },
+  {
+    "text": "INTRODUCTION TO ARTIFICIAL INTELLIGENCE Artificial Intelligence (AI) is a field of computer science focused on building systems that perform tasks commonly associated with human intelligence. These tasks include learning, reasoning, problem solving, perception, and understanding language. Machine learning is a subfield of AI. It enables systems to learn patterns from data and improve their performance without being explicitly programmed for every possible situation. Common machine learning approaches include supervised learning, unsupervised learning, and reinforcement learning. Natural Language Processing (NLP) focuses on enabling computers to understand, interpret, and generate human language. Common applications include chatbots, translation, text classification, and document search. A knowledge assistant can use retrieval-augmented generation (RAG) to answer questions using a collection of trusted documents. RAG retrieves relevant passages first and then provides those passages to a language model as context. This helps ground responses in the supplied information and makes it possible to show source references.",
+    "metadata": {
+      "source": "AI_Introduction.txt",
+      "page": 1,
+      "chunk": 1
+    }
+  }
+]

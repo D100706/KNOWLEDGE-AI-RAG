@@ -1,0 +1,9 @@
+INTRODUCTION TO ARTIFICIAL INTELLIGENCE
+
+Artificial Intelligence (AI) is a field of computer science focused on building systems that perform tasks commonly associated with human intelligence. These tasks include learning, reasoning, problem solving, perception, and understanding language.
+
+Machine learning is a subfield of AI. It enables systems to learn patterns from data and improve their performance without being explicitly programmed for every possible situation. Common machine learning approaches include supervised learning, unsupervised learning, and reinforcement learning.
+
+Natural Language Processing (NLP) focuses on enabling computers to understand, interpret, and generate human language. Common applications include chatbots, translation, text classification, and document search.
+
+A knowledge assistant can use retrieval-augmented generation (RAG) to answer questions using a collection of trusted documents. RAG retrieves relevant passages first and then provides those passages to a language model as context. This helps ground responses in the supplied information and makes it possible to show source references.
