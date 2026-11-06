@@ -2,16 +2,12 @@
 
 ### 1. Home Page
 
-![KNOWLEDGE AI Home](screenshotskn/01_home.png)
+![KNOWLEDGE AI Home](screenshotskn/Screenshot 2026-11-05 225556.png)
 
 ### 2. Document Upload
 
-![Document Upload](screenshotskn/02_document_upload.png)
+![Document Upload](screenshotskn/Screenshot 2026-11-05 225621.png)
 
-### 3. Knowledge Base
+### 3. AI Generated Response
 
-![FAISS Knowledge Base](screenshotskn/03_knowledge_base.png)
-
-### 4. AI Generated Response
-
-![AI Generated Response](screenshotskn/04_ai_response.png)
+![AI Generated Response](screenshotskn/Screenshot 2026-11-05 230033.png)
